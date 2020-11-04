@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 3 CSS 118140165</title>
+	<style type="text/css">
+		header {
+			width: 784px;
+			height: 200px;
+		}
+		.kolom1 {
+    		width: 200px;
+    		height: auto;
+    		position: fixed;
+    		background-color: #e3caaf;
+    	}
+    	.kolom2 {
+    		width: 584px;
+    		height: auto;
+    		margin-left: 205px;
+    	}
+    	.footer{
+    		width: 784px;
+    		height: 100px;
+    		background-color: #bda68a;
+    		padding: 1px;
+    		display: flex;
+    		justify-content: center;
+    		text-align: center; 
+    	}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<img src="mac.jpg">
+	</div>
+
+	<div class="kolom1">
+        <h3 class="w3-bar-item">Menu</h3>
+        <a href="#" class="w3-bar-item w3-button">Macbook</a>
+        <br>
+        <a href="#" class="w3-bar-item w3-button">Asus</a>
+        <br>
+        <a href="#" class="w3-bar-item w3-button">Lenovo</a>
+        <br>
+    </div>
+
+    <div class="kolom2" id="kolom2">
+    	<h3 class="w3-bar-item">Spesifikasi</h3>
+    	<h5>Layar</h5>
+    	<p>Layar 13,3 inci (diagonal) dengan lampu latar LED dan teknologi IPS; resolusi 2560 x 1600 pada 227 piksel per inci dengan dukungan untuk jutaan warna</p>
+		<p>Skala resolusi yang didukung:
+		1680 x 1050
+		1440 x 900
+		1024 x 640</p>
+		<p>Kecerahan 500 nit</p>
+		<p>Warna luas (P3)</p>
+		<h5>Prosesor</h5>
+		<p>Intel Core i5 generasi ke-8 quad-core 1,4 GHz, Turbo Boost hingga 3,9 GHz, dengan eDRAM sebesar 128 MB</p>
+		<p>Dapat dikonfigurasi menjadi Intel Core i7 generasi ke-8 quad-core 1,7 GHz, Turbo Boost hingga 4,5 GHz, dengan eDRAM sebesar 128 MB</p>
+		<br>
+		<form>
+			<h5>Pemesanan Macbook Pro 2020</h5>
+			<label>Name: </label><br>
+			<input type="text" name="name"><br>
+			<label>Email: </label><br>
+			<input style="email" name="email"><br>
+			<label>Warna: </label><br>
+			<input type="radio" name="color" value="silver">Silver<br>
+        	<input type="radio" name="color" value="spacegrey">Space Grey<br>
+        	<label>Storage</label><br>
+        	<input type="radio" name="storage" value="256">256 GB<br>
+        	<input type="radio" name="storage" value="512">512 GB<br>
+        	<label>Processor</label><br>
+        	<input type="radio" name="Processor" value="i5">Intel Core i5 quad-core 1,4 GHz<br>
+        	<input type="submit" name="Submit" value="Add to Cart"><br>
+		</form>
+	</div>
+	<div class="footer">
+		<h6>&copy Copyright 118140165 AYU AFIFAH</h6>
+	</div>
+</body>
+</html>
