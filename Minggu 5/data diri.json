@@ -1,0 +1,22 @@
+{
+    "biodata": {
+      "nama": {
+        "awal": "Ayu",
+        "tengah": " ",
+        "akhir": "Afifah"
+      },
+      "jeniskelamin": "Perempuan",
+      "hobi": {
+        "hobi1": "rebahan",
+        "hobi2": "nonton nct"
+      },
+      "alamat": {
+        "kecamatan": "segala mider",
+        "kabupaten": "Bandar Lampung"
+      },
+      "socialMedia": {
+        "github": "ayuuafifah",
+        "instagram": "ayuuafifah"
+      }
+    }
+  }

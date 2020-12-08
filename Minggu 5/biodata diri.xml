@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<biodata>
+    <nama>
+        <awal>Ayu</awal>
+        <tengah> </tengah>
+        <akhir>Afifah</akhir>
+    </nama>
+    <jeniskelamin>Perempuan</jeniskelamin>
+    <hobi>
+        <hobi1>rebahan</hobi1>
+        <hobi2>nonton nct</hobi2>
+    </hobi>
+    <alamat>
+        <kecamatan>segala mider</kecamatan>
+        <kabupaten>Bandar Lampung</kabupaten>
+    </alamat>
+    <socialMedia>
+        <github>ayuuafifah</github>
+        <instagram>ayuuafifah</instagram>
+    </socialMedia>
+</biodata>
